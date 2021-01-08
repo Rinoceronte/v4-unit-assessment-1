@@ -1,0 +1,117 @@
+.teal {
+    background-color: rgb(137, 252, 214);
+}
+
+.dash {
+    border: 2px dashed black;
+    clear: none;
+}
+
+.purple {
+    background-color: purple;
+    border: 2px solid red;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.blue {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    box-shadow: 3px 3px;
+}
+
+.pink {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.circles > div {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+.head {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.head > img {
+    width: 60px;
+    margin-top: 10px;
+    mix-blend-mode: multiply;
+}
+
+.body {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.body > img {
+    width: 50px;
+    margin-left: 12px;
+    margin-top: 4px;
+    z-index: -50;
+    mix-blend-mode: multiply;
+}
+
+.feet {
+    width: 100px;
+    height: 100px;
+}
+
+.everything {
+
+}
+
+.oSquare {
+    background-color: rgb(245, 244, 222);
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+}
+
+.iSquare {
+    background-color: rgb(162, 47, 46);
+    width: 70px;
+    height: 70px;
+    position: relative;
+    z-index: 10;
+    margin-left: 20px;
+    padding-top: 20px;
+    background-clip: content-box;
+}
+
+
+
+.oCircle {
+    background-color: rgb(28, 125, 26);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.iCircle {
+    background-color: rgb(0, 53, 248);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 15;
+}
+
+.iCircle > img {
+    align-items: center;
+    width: 50px;
+    vertical-align: middle;
+    margin-top: 9px;
+    mix-blend-mode: multiply;
+}

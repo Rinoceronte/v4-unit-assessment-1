@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = "Git is a repository for code online";
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = "GitHub is a website for repositories";
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,7 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {description: "initialize repository at current location", code: "git init"};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +41,7 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {description: "create a copy of a repository at current location", code: "git clone <url>"};
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +49,7 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {description: "shows file differences between current code and what was last known on repository", code: "git status"};
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +57,7 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {description: "add a file or multiple files to staging for repository", code: "git add <filename>"};
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +65,7 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {description: "gets changes ready to be moved to repository on web", code: "git commit -m 'message'"};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +73,7 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote = {description: "Adds url location of repository", code: "git remote add origin <url>"};
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +81,4 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {description: "pushes staged changes to repository", code: "git push"};
